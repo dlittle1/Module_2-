@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Travel Form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="">
+    <form name="travel-form" id="travel-form">
+      <!-- name -->
+      <input type="text" placeholder="First name" name="firstName">
+      <input type="text" placeholder="Last name" name="lastName">
+      <!-- age -->
+      <input type="number" placeholder="Age" name="age">
+      <!-- gender -->
+      <label for="male">Male:</label>
+      <input type="radio" id="male" name="gender" value="male"></input>
+
+      <label for="female">Female:</label>
+      <input type="radio" id="female" name="gender" value="female"></input>
+
+      <!-- where to -->
+      <select name="destination">
+        <option value="Venice">Venice</option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Rome">Rome</option>
+      </select>
+
+      <!-- dietary needs -->
+      <span id="dietaryNeeds">
+        Vegan:
+        <input type="checkbox" name="dietary-needs" value="vegan">
+        Kosher:
+        <input type="checkbox" name="dietary-needs" value="kosher">
+        Lactose Free:
+        <input type="checkbox" name="dietary-needs" value="lactose-free">
+      </span>
+      <button>Submit</button>
+    </form>
+  </div>
+  <script src="app.js" type="text/javascript"></script>
+</body>
+</html>

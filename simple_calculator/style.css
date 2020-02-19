@@ -1,0 +1,13 @@
+#additionForm > input {
+  background-color: lightblue;
+}
+#subtractionForm > input {
+  background-color: lightcoral;
+}
+#multiplicationForm > input {
+  background-color: lightseagreen;
+}
+
+form {
+  margin: 10px;
+}

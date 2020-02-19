@@ -1,0 +1,30 @@
+JSON.parse()
+JSON.stringify()
+
+{
+   "data": [
+      {
+         "name": "Steve",
+         "age": 20,
+         "isAlive": true,
+         "friends": ["john", "betty", "jake"],
+         "address": {
+            "street": "123 street",
+            "city": "SLC"
+         }
+
+      },
+      {
+         "name": "Bob",
+         "age": 30,
+         "isAlive": true,
+         "friends": ["sam", "steve", "tammy"],
+         "address": {
+            "street": "124 street",
+            "city": "SLC"
+         }
+      }
+
+   ]
+
+}

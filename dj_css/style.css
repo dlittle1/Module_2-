@@ -1,0 +1,54 @@
+#boxes {
+   display: flex;
+}
+
+.box {
+   height: 100px;
+   width: 100px;
+   margin: 30px;
+   background-color: aqua;
+   /* transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+    transition-delay: 1s; */
+   transition: all 1s;
+}
+
+#box1:hover {
+   background-color: aquamarine;
+   border-radius: 50%;
+}
+
+#box2:hover {
+   width: 0;
+   height: 0;
+   border-left: 50px solid transparent;
+   border-right: 50px solid transparent;
+   border-bottom: 100px solid cornflowerblue;
+   background-color: transparent;
+}
+
+#box3:hover {
+   height: 400px;
+   width: 100px;
+   background-color: crimson;
+}
+
+#box4:hover {
+   height: 300px;
+   width: 100px;
+   background-color: darkseagreen;
+}
+
+#box5:hover {
+   height: 550px;
+   width: 100px;
+   background-color: deeppink;
+}
+
+#box6:hover {
+   background-color: salmon;
+   border-radius: 50%;
+   height: 400px;
+   width: 400px;
+}

@@ -1,0 +1,12 @@
+{
+   "menu":
+   [
+      {
+         "appetizers": ["fries", "nachos", "chips and dip"],
+         "cold sandwiches": ["ham and cheese", "turkey sub", "blt"],
+         "hot sandwiches": ["philly cheese steak", "meatball sub"],
+         "desserts": ["cheesecake", "chocolate cake"],
+         "drinks": ["coca-cola", "pepsi", "orange cream"]
+      }
+   ]
+}
