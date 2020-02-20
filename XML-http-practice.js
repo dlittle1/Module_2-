@@ -24,7 +24,7 @@ xhr.onreadystatechange = () => {
    if(xhr.readyState === 4 && xhr.status === 200){
       // response
       const JSONdata = xhr.responseText
-      const data = JSONdata.pars(JSONdata)
+      const data = JSONdata.parse(JSONdata)
       console.log(data)
    } else if (xhr.readyState === 4 && xhr.status !== 200){
       console.log(xhr.responseText)
